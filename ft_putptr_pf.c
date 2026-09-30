@@ -6,13 +6,13 @@
 /*   By: reyam <reyam@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/30 00:36:52 by reyam             #+#    #+#             */
-/*   Updated: 2026/09/30 01:14:06 by reyam            ###   ########.fr       */
+/*   Updated: 2026/09/30 17:38:13 by reyam            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putptr_hex_pf(unsigned long address)
+static int	ft_putptr_hex_pf(unsigned long address)
 {
 	const char	*base = "0123456789abcdef";
 	int			count;
@@ -24,7 +24,7 @@ int	ft_putptr_hex_pf(unsigned long address)
 	return (count);
 }
 
-// print (nil) when ptr is NULL.
+// Print (nil) when ptr is NULL.
 
 int	ft_putptr_pf(void *ptr)
 {

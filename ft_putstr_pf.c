@@ -6,7 +6,7 @@
 /*   By: reyam <reyam@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:24:01 by reyam             #+#    #+#             */
-/*   Updated: 2026/09/28 19:49:59 by reyam            ###   ########.fr       */
+/*   Updated: 2026/09/30 17:20:08 by reyam            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,3 @@ int	ft_putstr_pf(char *str)
 	}
 	return (count);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	printf("hello % kek");
-// }
